@@ -5,5 +5,5 @@
 import statistics
 
 
-def median(a, b, c):
+def median(a: int, b: int, c: int) -> int:
     return statistics.median([a, b, c])
